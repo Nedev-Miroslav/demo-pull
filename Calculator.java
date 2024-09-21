@@ -3,8 +3,9 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         
         int firstNumber = Integer.ParseInt(scanner.nextLine);
-        int SecondNumber = Integer.ParseInt(scanner.nextLine);
-        
-        System.out.println(firstNumber + SecondNumber);
+        int secondNumber = Integer.ParseInt(scanner.nextLine);
+        String operation = Scanner.nextLine();
+
+        System.out.println(firstNumber " " + operation + " " SecondNumber);
     }
 }
